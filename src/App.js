@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import FatchData from './FatchData';
+import { GithubUsersdata } from './GithubUsersdata';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Task 1</h2>
+      <b>Q1. Go to https://jsonplaceholder.typicode.com/users and fetch and display the user data on page.</b>
+      <FatchData/>
+      <GithubUsersdata/>
     </div>
   );
 }
